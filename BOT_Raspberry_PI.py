@@ -48,9 +48,9 @@ def send_welcome(message):
 def hola(m):
 	cid = m.chat.id
 	id = m.from_user.id
-	Username = m.from_user.username
-	First_name = m.from_user.first_name
-	bot.send_message(cid, "Hola "+Username+" Tu ID es : "+str(id))
+	username = m.from_user.username
+	first_name = m.from_user.first_name
+	bot.send_message(cid, "Hola "+username+" Tu ID es : "+str(id))
 
 #Obtiene informacion de los indicadores económicos en Chile
 @bot.message_handler(commands=['indi'])
@@ -68,8 +68,8 @@ def indi(m):
 @bot.message_handler(commands=['freqcpu'])
 def command_freqCPU(m):
 	cid = m.chat.id
-	freqCPU = os.popen('cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq').read()
-	bot.send_message(cid, freqCPU )
+	freq_cpu = os.popen('cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq').read()
+	bot.send_message(cid, freq_cpu )
 
 #Muestra información pública de la ip
 @bot.message_handler(commands=['ipdata'])
