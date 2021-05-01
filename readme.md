@@ -29,11 +29,12 @@ Si todo a salido de manera correcta nuestro bot estaría corriendo y debería po
 
 ## Ejemplos.
 
-![](https://lh3.googleusercontent.com/Db8aB8zOepGBGbJoj9EGtZ2NSo90TdiPznGieCApG1XCOuLcAdClmyLFMBOsjeqnur2y0c_TJrkKqwHbTnYQ=w2048-h1586-rw)
+![](https://raw.githubusercontent.com/KrlitosForever/BOT_Raspberry_PI/master/Media/Foto1.jpg)
 > Funciones Realizadas por el Bot.
 
-![](https://lh5.googleusercontent.com/FNM-se2ebTwomsTMBKORp-UJI8-X5xQpefKrhPM44unzZ9b9zkHUiMBKZmVKqf_ENjQw9OYYQZNnLzUpVnwz=w2048-h1586-rw)
+![](https://raw.githubusercontent.com/KrlitosForever/BOT_Raspberry_PI/master/Media/Foto2.jpg)
+> Entrega los indicadores economicos de Chile.
+
+![](https://raw.githubusercontent.com/KrlitosForever/BOT_Raspberry_PI/master/Media/Foto3.jpg)
 > Entrega de últimos 3 sismos en Chile.
 
-![](https://lh6.googleusercontent.com/6DRu5nDeCAQoWYTveJ2pgomFgrqeBPw7hB5FpTp5hIBm9rirSQAzzMws2oGjrLnNaIwPs-BaEZSmCiFrkApZ=w1920-h880)
-> Entrega los indicadores economicos de Chile.
