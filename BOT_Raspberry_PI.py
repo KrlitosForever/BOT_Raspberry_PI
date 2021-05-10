@@ -95,7 +95,7 @@ def sismos(m):
 	cid = m.chat.id
 	data = requests.get('https://api.gael.cl/general/public/sismos').json()
 	for info in data[0:3]:
-		bot.send_message(cid,"Fecha: "+info['Fecha']+"\nLatitud :"+info['Latitud']+"\nLongitud: "+info['Longitud']+"\nProfundidad"+info['Profundidad']+"\nMagnitud: "+info['Magnitud']+"\nAgencia: "+info['Agencia']+"\nRefGeográfica: "+info['RefGeografica']+"\nFechaUpdate: "+info['FechaUpdate']+"\n")
+		bot.send_message(cid,"Fecha: "+info['Fecha']+"\nLatitud :"+info['Latitud']+"\nLongitud: "+info['Longitud']+"\nProfundidad: "+info['Profundidad']+"\nMagnitud: "+info['Magnitud']+"\nAgencia: "+info['Agencia']+"\nRefGeográfica: "+info['RefGeografica']+"\nFechaUpdate: "+info['FechaUpdate']+"\n")
 
 #Muestra el tamaño disponible de la RPI
 @bot.message_handler(commands=['tamano'])
